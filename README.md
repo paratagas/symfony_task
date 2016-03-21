@@ -4,7 +4,7 @@ symfony_task
 A Symfony project created on March 12, 2016, 3:31 pm.
 Test task according to given requirements
 
-HOW TO USE:
+**HOW TO USE**:
 
 With default filename:
 php app/console app:import:csv
@@ -18,9 +18,9 @@ php app/console app:import:csv c:/data/stock.csv --includeFL
 With custom filename, without persisting data to DB, including first line option
 php app/console app:import:csv c:/data/stock.csv --testMode --includeFL
 
-TO RUN TESTS:
+**TO RUN TESTS**:
 phpunit -c app src/AppBundle/Tests/Utils/ParserTest.php
 
-NOTICES:
+*NOTICES*:
 File name argument is optional (default: symfony_task/app/data/stock.csv)
 All settings are optional
