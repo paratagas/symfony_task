@@ -21,4 +21,4 @@ symfony_task
 
 *NOTICES*:
 File name argument is optional (default: symfony_task/app/data/stock.csv).
-All settings are optional
+All these settings are optional
